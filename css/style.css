@@ -1,0 +1,100 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  .judul {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #f8f8f8;
+    background-color: #0e0d0d;
+  }
+  .destination {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  
+  .destination img {
+    max-width: 100%;
+  }
+  
+  .photo-gallery img {
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Transisi warna selama 0.3 detik dengan efek percepatan (ease) */
+  }
+  
+  nav a:hover {
+    color: #c4ee0a; /* Warna berubah saat mouse di atas tautan */
+  }
+  .gallery-img {
+    max-width: 100%;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Transisi transformasi selama 0.3 detik dengan efek percepatan (ease) */
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.05); /* Membesarkan gambar saat mouse di atasnya */
+  }
+  
+  a[href^="#"] {
+    transition: scroll-behavior 0.3s ease-in-out; /* Efek smooth scroll selama 0.3 detik dengan efek percepatan dan perlambatan */
+  }
+  #scrollToTopBtn {
+    display: none; /* Tombol akan sembunyi saat halaman pertama dimuat */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    padding: 10px;
+    background-color: #03afff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
